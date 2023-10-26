@@ -7,7 +7,7 @@
 /* BORDER */
 
 *{
-    border: 1px solid red;
+    border: 1px solid rgb(255, 0, 0);
 }
 
 /* CONTENT */
@@ -43,15 +43,28 @@
     justify-content: center;
 }
 
+.space-between{
+    justify-content: space-between;
+}
+
 /* COLUMNS */
 
 .col-100{
     width: 100%;
 }
 
+.col-60{
+    width: calc(60%);
+}
+
 .col-50{
     width: calc(50%);
 }
+
+.col-40{
+    width: calc(40%);
+}
+
 
 .col-30{
     width: calc(30%);
