@@ -6,9 +6,9 @@
 
 /* BORDER */
 
-*{
+/* *{
     border: 1px solid rgb(255, 0, 0);
-}
+} */
 
 /* CONTENT */
 
@@ -28,6 +28,56 @@
 
 .logo-container img{
     width: 100%;
+}
+
+/* HEADER */
+
+header{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+
+.header-list-container{
+    display: flex;
+}
+
+.header-list{
+    list-style-type: none;
+    display: flex;
+}
+
+.header-list li{
+    padding: 15px 10px;
+}
+
+.header-list li a{
+    text-decoration: none;
+    color: black;
+}
+
+.logo{
+    width: 100%;
+}
+
+/* TEXT SETTINGS AND CUSTOMIZATION */
+
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text-end{
+    text-align: end;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-bg-blue{
+    padding: 5px 10px;
+    background-color: #0061FF;
+    color: white;
 }
 
 /* CONTAINERS */
@@ -123,4 +173,8 @@
 
 .bg-red{
     background-color: red;
+}
+
+.bg-skyblue{
+    background: #B4D0E7;
 }
