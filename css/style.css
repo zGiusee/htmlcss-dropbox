@@ -75,12 +75,15 @@ header{
 }
 
 .upper-col{
-    padding: 5px 0px;
     border-bottom: 0.1px solid #D2D2D5;
 }
 
 .bottom-card-header{
-    padding: 20px 20px;
+    padding: 20px 0px 20px 20px;
+}
+
+.bottom-card-body{
+    padding: 20px 0px 30px 0px;
 
 }
 
@@ -88,9 +91,34 @@ header{
 
 }
 
+.month-text{
+    opacity: 0.5;
+    font-size: 13px;
+
+}
+
 .sub-card-price{
     padding: 10px 0px;
+    font-size: 13px;
 
+}
+
+.sub-card-for-text{
+    font-weight: 200;
+    font-size: 14px;
+    padding: 10px 0px;
+}
+
+/* SUBSCRIPTION-LIST */
+
+.sub-plan-list{
+    padding-left: 20px;
+    list-style-type: none;
+}
+
+.sub-plan-list li{
+    padding: 10px 0px;
+    font-size: 14px;
 }
 
 
@@ -162,6 +190,10 @@ header{
     height: 200px;
 }
 
+.logo-container img{
+    width: 100%;
+}
+
 .img-container img{
     width: 100%;
 }
@@ -221,7 +253,7 @@ header{
 }
 
 .col-33{
-    width: calc(33%);
+    width: calc(33% - 10px);
 }
 
 .col-4{
