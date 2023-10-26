@@ -47,6 +47,10 @@
     justify-content: space-between;
 }
 
+.space-around{
+    justify-content: space-around;
+}
+
 /* COLUMNS */
 
 .col-100{
