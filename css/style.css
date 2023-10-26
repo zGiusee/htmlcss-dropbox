@@ -18,18 +18,6 @@
     background-color: blue;
 }
 
-.logo-container{
-    display: flex;
-    align-items: center;
-    width: 200px;
-    opacity: 0.8;
-    height: 200px;
-}
-
-.img-container img{
-    width: 100%;
-}
-
 /* HEADER */
 
 header{
@@ -80,11 +68,47 @@ header{
     color: white;
 }
 
-.title-font{
-    padding: 50px;
+/* SUBSCRIPTION PLAN CARD */
+
+.card-border{
+    border: 0.1px solid #D2D2D5;
+}
+
+.upper-col{
+    padding: 5px 0px;
+    border-bottom: 0.1px solid #D2D2D5;
+}
+
+.bottom-card-header{
+    padding: 20px 20px;
+
+}
+
+.sub-card-title{
+
+}
+
+.sub-card-price{
+    padding: 10px 0px;
+
+}
+
+
+/* TITLE FONT */
+
+.big-title-font{
+    padding: 50px 0px;
     font-size: 80px;
     font-weight: bolder;
 }
+
+.title-font{
+    padding: 50px 0px;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+/* BUTTONS */
 
 .button-bg-blue{
     padding: 5px 10px;
@@ -93,9 +117,22 @@ header{
     border-color: transparent;
 }
 
+/* PADDING */
+
 .padding-y-30{
     padding: 30px 0px;
 }
+
+.padding-y-20{
+    padding: 20px 0px;
+}
+
+/* RADIO */
+
+.radio-box{
+    padding: 0px 40px 0px 5px;
+}
+
 
 /* ENTITIES AND ICONS */
 
@@ -117,9 +154,18 @@ header{
     width: 100%;
 }
 
-.text-container{
-    width: 70%;
+.logo-container{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    opacity: 0.8;
+    height: 200px;
 }
+
+.img-container img{
+    width: 100%;
+}
+
 
 /* ROW AND FLEXBOX */
 
@@ -129,7 +175,7 @@ header{
 }
 
 .row-padding{
-    padding: 100px 0px 0px 0px;
+    padding: 50px 0px;
 }
 
 .f-wrap{
@@ -162,8 +208,8 @@ header{
     width: calc(100%);
 }
 
-.col-60{
-    width: calc(60%);
+.col-70{
+    width: calc(70%);
 }
 
 .col-50{
