@@ -87,6 +87,10 @@
     width: calc(30%);
 }
 
+.col-20{
+    width: calc(20%, -20px);
+}
+
 /* WIDTH */
 
 .w-100{
