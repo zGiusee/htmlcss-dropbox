@@ -22,21 +22,28 @@
 
 .container-fluid{
     width: 100%;
-    margin: 0 auto;
 }
 
 .container{
     width: 100%;
-    margin: 0 auto;
 }
 
-/* ROW */
+/* ROW AND FLEXBOX */
 
 .row{
     display: flex;
+    margin: 0 auto;
+}
+
+.f-wrap{
+    flex-wrap: wrap;
 }
 
 /* COLUMNS */
+
+.col-100{
+    width: 100%;
+}
 
 .col-50{
     width: calc(50%);
@@ -52,3 +59,8 @@
     width: 80%;
 }
 
+/* BG-COLORS */
+
+.bg-red{
+    background-color: red;
+}
