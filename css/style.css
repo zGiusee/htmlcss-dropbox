@@ -18,6 +18,12 @@
     background-color: blue;
 }
 
+.sm-content{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
 /* CONTAINERS */
 
 .container-fluid{
