@@ -68,6 +68,14 @@ header{
     color: white;
 }
 
+.bold{
+    font-weight: bold;
+}
+
+.sm-font-size{
+    font-size: 14px;
+}
+
 /* SUBSCRIPTION PLAN CARD */
 
 .card-border{
@@ -83,8 +91,7 @@ header{
 }
 
 .bottom-card-body{
-    padding: 20px 0px 0px 20px;
-
+    padding: 20px 30px 0px 20px;
 }
 
 .sub-card-title{
@@ -94,13 +101,11 @@ header{
 .month-text{
     opacity: 0.5;
     font-size: 13px;
-
 }
 
 .sub-card-price{
     padding: 10px 0px;
     font-size: 13px;
-
 }
 
 .sub-card-text{
@@ -124,6 +129,7 @@ header{
 .sub-plan-list li{
     padding: 10px 0px; 
     font-size: 14px;
+    display: flex;
 }
 
 .sub-plan-advantage-list{
@@ -133,7 +139,19 @@ header{
 
 .sub-plan-advantage-list li{
     padding: 10px 0px; 
-    font-size: 14px;
+    font-size: 13px;
+    display: flex;
+}
+
+/* SUBSCRIPTION LIST ICONS */
+
+.fa-user, .fa-folder, .fa-share-nodes, .fa-check{
+    margin-right: 10px;
+    margin-top: 3px;
+}
+
+.fa-check{
+    color: #0061FF;
 }
 
 /* TITLE FONT */
@@ -168,6 +186,15 @@ header{
 
 .padding-y-20{
     padding: 20px 0px;
+}
+
+.padding-top-40{
+    padding-top: 40px;
+}
+
+
+.padding-y-10{
+    padding: 10px 0px;
 }
 
 /* RADIO */
