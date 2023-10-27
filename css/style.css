@@ -190,6 +190,14 @@ header{
     color: black;
 }
 
+.button-bg-white{
+    padding: 8px 30px;
+    background-color: white;
+    border-color: rgb(255, 255, 255);
+    color: black;
+
+}
+
 .card-button-xl-position{
     position: absolute;
     top: 20px;
@@ -208,6 +216,10 @@ header{
 
 .padding-top-40{
     padding-top: 40px;
+}
+
+.padding-top-xl{
+    padding-top: 150px;
 }
 
 .padding-left-25{
@@ -319,6 +331,10 @@ header{
     justify-content: flex-end;
 }
 
+.align-center{
+    align-items: center;
+}
+
 .space-between{
     justify-content: space-between;
 }
@@ -400,4 +416,8 @@ header{
 
 .bg-skyblue{
     background: #B4D0E7;
+}
+
+.dark-purple{
+    color: #610529;
 }
