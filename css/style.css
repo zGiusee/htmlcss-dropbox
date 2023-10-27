@@ -176,11 +176,18 @@ header{
 /* BUTTONS */
 
 .button-bg-blue{
-    padding: 5px 10px;
+    padding: 8px 12px;
     background-color: #0061FF;
     border-color: #0061FF;
     color: white;
     border-collapse: collapse;
+}
+
+.button-bg-transparent{
+    padding: 8px 12px;
+    background-color: transparent;
+    border-color: black;
+    color: black;
 }
 
 .card-button-xl-position{
@@ -207,6 +214,10 @@ header{
     padding-left: 25px;
 }
 
+.padding-left-30{
+    padding-left: 30px;
+}
+
 .padding-y-10{
     padding: 10px 0px;
 }
@@ -215,8 +226,11 @@ header{
     padding-right: 10px;
 }
 
-
 /* MARGIN */
+
+.margin-bot-30{
+    margin-bottom: 30px;
+}
 
 .margin-top{
     margin-top: 50px;
@@ -281,6 +295,10 @@ header{
     padding: 50px 0px 0px 0px;
 }
 
+.row-padding-xl{
+    padding: 200px 0px 0px 0px;
+}
+
 .f-wrap{
     flex-wrap: wrap;
 }
@@ -318,6 +336,11 @@ header{
 .col-70{
     width: calc(70%);
 }
+
+.col-60{
+    width: calc(60%);
+}
+
 
 .col-50{
     width: calc(50%);
