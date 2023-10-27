@@ -4,7 +4,47 @@
     box-sizing: border-box;
 }
 
-/* BORDER */
+/* GENERAL CONTAINERS */
+
+.container-fluid{
+    width: 100%;
+}
+
+.container{
+    width: 100%;
+}
+
+.img-container{
+    width: 100%;
+}
+
+.sm-img-container img{
+    width: 50%;
+    padding: 40px 0px 40px 30px;
+}
+
+.central-container{
+    padding: 30px 30px 30px 30px;
+
+}
+
+/* END GENERAL CONTAINERS */
+
+
+
+/* IMAGE CONTAINERS */
+
+.logo-container img{
+    width: 100%;
+}
+
+.img-container img{
+    width: 100%;
+}
+
+/* END OF IMAGE CONTAINERS */
+
+
 
 /* HEADER */
 
@@ -36,38 +76,40 @@ header{
     width: 100%;
 }
 
+/* END OF HEADER */
+
+
+
 /* MAIN */
 
-/* TEXT SETTINGS AND CUSTOMIZATION */
+/* RADIO */
 
-*{
-    font-family: 'Open Sans', sans-serif;
+.radio-box{
+    padding: 0px 40px 0px 5px;
 }
 
-.text-end{
-    text-align: end;
+/* SUBSCRIPTION-LIST */
+
+.sub-plan-list{
+    list-style-type: none;
+    padding-bottom: 15px;
 }
 
-.text-center{
-    text-align: center;
-}
-
-.text-bg-blue{
-    padding: 5px 10px;
-    background-color: #0061FF;
-    color: white;
-}
-
-.bold{
-    font-weight: bold;
-}
-
-.sm-font-size{
+.sub-plan-list li{
+    padding: 10px 0px; 
     font-size: 14px;
+    display: flex;
 }
 
-.card-p-xl{
-    padding: 40px 200px 25px 0px;
+.sub-plan-advantage-list{
+    list-style-type: none;
+    padding-bottom: 15px;
+}
+
+.sub-plan-advantage-list li{
+    padding: 10px 0px; 
+    font-size: 13px;
+    display: flex;
 }
 
 /* SUBSCRIPTION PLAN CARD */
@@ -109,90 +151,13 @@ header{
     color: #D2D2D5;
 }
 
-/* SUBSCRIPTION-LIST */
-
-.sub-plan-list{
-    list-style-type: none;
-    padding-bottom: 15px;
+.card-p-xl{
+    padding: 40px 200px 25px 0px;
 }
 
-.sub-plan-list li{
-    padding: 10px 0px; 
-    font-size: 14px;
-    display: flex;
-}
+/* END OF SUBSCRIPTION-LIST */
 
-.sub-plan-advantage-list{
-    list-style-type: none;
-    padding-bottom: 15px;
-}
 
-.sub-plan-advantage-list li{
-    padding: 10px 0px; 
-    font-size: 13px;
-    display: flex;
-}
-
-.footer-link-list{
-    list-style-type: none;
-}
-
-.footer-link-list li{
-    padding: 7px 0px;
-    font-size: 15px;
-    
-}
-
-.footer-link-list li a{
-    color: white;
-    text-decoration: none;   
-}
-
-.link-list-title{
-    font-size: 23px;
-}
-
-.tendina-lingue{
-    color: #9B9DA1;
-    background-color: black;
-    border-color: transparent;
-    padding: 8px 16px;
-}
-
-/* SUBSCRIPTION LIST ICONS */
-
-.fa-user, .fa-folder, .fa-share-nodes, .fa-check, .fa-users, .fa-building{
-    margin-right: 10px;
-    margin-top: 3px;
-}
-
-.fa-check{
-    color: #0061FF;
-}
-
-/* TITLE FONT */
-
-.big-title-font{
-    padding: 50px 0px;
-    font-size: 80px;
-    font-weight: bolder;
-}
-
-.title-font{
-    padding: 100px 0px;
-    font-size: 35px;
-    font-weight: bolder;
-}
-
-.medium-title-font{
-    padding: 25px 25px 20px 0px;
-    font-size: 25px;
-}
-
-.option-list-title{
-    font-size: 15px;
-    padding: 40px 0px;
-}
 
 /* BUTTONS */
 
@@ -227,6 +192,226 @@ header{
     position: absolute;
     top: 20px;
     right: 20px;
+}
+
+/* END OF BTTONS */
+
+
+
+/* BUSINESS SECTION CUSTOMIZATION */
+
+.logo-main-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.logo-container{
+    width: 50%;
+    height: 25vh;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.col-3{
+    width: calc(100% / 3);
+}
+
+/* END OF BUSINESS SECTION CUSTOMIZATION */
+
+
+/* FOOTER */
+
+.tendina-lingue{
+    color: #9B9DA1;
+    background-color: black;
+    border-color: transparent;
+    padding: 8px 16px;
+}
+
+/* FOOTER LIST */
+
+.footer-link-list{
+    list-style-type: none;
+}
+
+.footer-link-list li{
+    padding: 7px 0px;
+    font-size: 15px;
+    
+}
+
+.footer-link-list li a{
+    color: white;
+    text-decoration: none;   
+}
+
+.link-list-title{
+    font-size: 23px;
+}
+
+/* END OF FOOTER */
+
+
+
+/* GENERAL TEXT SETTINGS AND CUSTOMIZATION */
+
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text-end{
+    text-align: end;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-bg-blue{
+    padding: 5px 10px;
+    background-color: #0061FF;
+    color: white;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.sm-font-size{
+    font-size: 14px;
+}
+
+/* TITLE FONTS */
+
+.big-title-font{
+    padding: 50px 0px;
+    font-size: 80px;
+    font-weight: bolder;
+}
+
+.title-font{
+    padding: 100px 0px;
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.medium-title-font{
+    padding: 25px 25px 20px 0px;
+    font-size: 25px;
+}
+
+.option-list-title{
+    font-size: 15px;
+    padding: 40px 0px;
+}
+
+/* END OF GENERAL TEXT SETTINGS AND CUSTOMIZATION */
+
+
+
+/* ENTITIES AND ICONS */
+
+.fa-arrow-down{
+    padding-top: 100px;
+}
+
+.fa-chevron-down{
+    padding-left: 200px;
+}
+
+.fa-earth-americas{
+    color: #9B9DA1;
+    padding-right: 20px;
+}
+
+/* SUBSCRIPTION LIST ICONS */
+
+.fa-user, .fa-folder, .fa-share-nodes, .fa-check, .fa-users, .fa-building{
+    margin-right: 10px;
+    margin-top: 3px;
+}
+
+.fa-check{
+    color: #0061FF;
+}
+
+/* END OF ENTITIES AND ICONS */
+
+
+
+/* ROW AND FLEXBOX */
+
+.row{
+    display: flex;
+    margin: 0 auto;
+}
+
+.row-padding{
+    padding: 50px 0px 0px 0px;
+}
+
+.row-padding-xl{
+    padding: 200px 0px 0px 0px;
+}
+
+.row-gap-50{
+    row-gap: 50px;
+}
+
+.column-gap{
+    column-gap: 42px;
+}
+
+/* ROW AND FLEXBOX UTILITIES*/
+
+.f-wrap{
+    flex-wrap: wrap;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.justify-end{
+    justify-content: flex-end;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.space-around{
+    justify-content: space-around;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.p-relative{
+    position: relative;
+}
+
+/* END OF ROW AND FLEXBOX UTILITIES*/
+
+
+
+/* POSITION/GENERAL UTILITIES */
+
+/* MARGIN */
+
+.margin-bot-30{
+    margin-bottom: 30px;
+}
+
+.margin-top{
+    margin-top: 50px;
 }
 
 /* PADDING */
@@ -267,143 +452,7 @@ header{
     padding-bottom: 100px;
 }
 
-/* MARGIN */
-
-.margin-bot-30{
-    margin-bottom: 30px;
-}
-
-.margin-top{
-    margin-top: 50px;
-}
-
-/* RADIO */
-
-.radio-box{
-    padding: 0px 40px 0px 5px;
-}
-
-/* ENTITIES AND ICONS */
-
-.fa-arrow-down{
-    padding-top: 100px;
-}
-
-.fa-chevron-down{
-    padding-left: 200px;
-}
-
-.fa-earth-americas{
-    color: #9B9DA1;
-    padding-right: 20px;
-}
-
-/* CONTAINERS */
-
-.container-fluid{
-    width: 100%;
-}
-
-.container{
-    width: 100%;
-}
-
-.img-container{
-    width: 100%;
-}
-
-.sm-img-container img{
-    width: 50%;
-    padding: 40px 0px 40px 30px;
-}
-
-.central-container{
-    padding: 30px 30px 30px 30px;
-
-}
-
-.logo-main-container{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-}
-
-.logo-container{
-    width: 50%;
-    height: 25vh;
-    padding: 50px;
-    display: flex;
-    justify-content: center;
-}
-
-.col-3{
-    width: calc(100% / 3);
-}
-
-.logo-container img{
-    width: 100%;
-}
-
-
-.img-container img{
-    width: 100%;
-}
-
-
-/* ROW AND FLEXBOX */
-
-.row{
-    display: flex;
-    margin: 0 auto;
-}
-
-.row-padding{
-    padding: 50px 0px 0px 0px;
-}
-
-.row-padding-xl{
-    padding: 200px 0px 0px 0px;
-}
-
-.row-gap-50{
-    row-gap: 50px;
-}
-
-.column-gap{
-    column-gap: 42px;
-}
-
-.f-wrap{
-    flex-wrap: wrap;
-}
-
-.justify-center{
-    justify-content: center;
-}
-
-.justify-end{
-    justify-content: flex-end;
-}
-
-.align-center{
-    align-items: center;
-}
-
-.space-between{
-    justify-content: space-between;
-}
-
-.space-around{
-    justify-content: space-around;
-}
-
-.d-flex{
-    display: flex;
-}
-
-.p-relative{
-    position: relative;
-}
+/* END OF PADDING UTILITIES */
 
 /* COLUMNS */
 
@@ -443,7 +492,11 @@ header{
     width: calc(20%, -20px);
 }
 
-/* WIDTH */
+/* END OF COLUMNS */
+
+
+
+/* WIDTH SETTINGS */
 
 .w-100{
     width: 100%;
@@ -456,6 +509,9 @@ header{
 .w-50{
     width: 50%;
 }
+
+/* END WIDTH SETTINGS*/
+
 
 
 /* BG-COLORS */
@@ -508,6 +564,11 @@ header{
     background-color: #F5F5F5;
 }
 
+/* END OF BG-COLORS */
+
+
+/* COLORS */
+
 .dark-purple{
     color: #610529;
 }
@@ -515,3 +576,5 @@ header{
 .white{
     color: white;
 }
+
+/* END COLORS */
