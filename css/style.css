@@ -306,6 +306,16 @@ header{
     width: 100%;
 }
 
+.sm-img-container img{
+    width: 50%;
+    padding: 40px 0px 40px 30px;
+}
+
+.central-container{
+    padding: 30px 30px 30px 30px;
+
+}
+
 .logo-main-container{
     display: flex;
     flex-wrap: wrap;
@@ -486,6 +496,10 @@ header{
 
 .bg-light-red{
     background-color: #FF1C1C;
+}
+
+.bg-light-gray{
+    background-color: #F5F5F5;
 }
 
 .dark-purple{
