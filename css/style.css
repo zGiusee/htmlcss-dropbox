@@ -315,7 +315,9 @@ header{
 .logo-container{
     width: 50%;
     height: calc(100vh / 6);
-    padding: 70px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
 }
 
 .logo-container img{
@@ -452,6 +454,38 @@ header{
 
 .bg-skyblue{
     background: #B4D0E7;
+}
+
+.bg-dark-purple{
+    background-color: #610529;
+}
+
+.bg-green{
+    background-color: #A2D39B;
+}
+
+.bg-light-green{
+    background-color: #D1E9CD;
+}
+
+.bg-yellow{
+    background-color: #FFD830;
+}
+
+.bg-blue{
+    background-color: #0D2481;
+}
+
+.bg-light-blue{
+    background-color: #0093CE;
+}
+
+.bg-red{
+    background-color: #D5001F;
+}
+
+.bg-light-red{
+    background-color: #FF1C1C;
 }
 
 .dark-purple{
