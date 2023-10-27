@@ -173,6 +173,11 @@ header{
     font-size: 25px;
 }
 
+.option-list-title{
+    font-size: 15px;
+    padding: 40px 0px;
+}
+
 /* BUTTONS */
 
 .button-bg-blue{
@@ -258,6 +263,10 @@ header{
 
 .fa-arrow-down{
     padding-top: 100px;
+}
+
+.fa-chevron-down{
+    padding-left: 200px;
 }
 
 /* CONTAINERS */
