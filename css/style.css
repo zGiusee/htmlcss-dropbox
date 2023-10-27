@@ -36,6 +36,8 @@ header{
     width: 100%;
 }
 
+/* MAIN */
+
 /* TEXT SETTINGS AND CUSTOMIZATION */
 
 *{
@@ -159,7 +161,7 @@ header{
 
 /* SUBSCRIPTION LIST ICONS */
 
-.fa-user, .fa-folder, .fa-share-nodes, .fa-check{
+.fa-user, .fa-folder, .fa-share-nodes, .fa-check, .fa-users, .fa-building{
     margin-right: 10px;
     margin-top: 3px;
 }
@@ -200,6 +202,10 @@ header{
     border-color: #0061FF;
     color: white;
     border-collapse: collapse;
+}
+
+.card-button-width{
+    width: 100%;
 }
 
 .button-bg-transparent{
@@ -324,10 +330,14 @@ header{
 
 .logo-container{
     width: 50%;
-    height: calc(100vh / 6);
+    height: 25vh;
     padding: 50px;
     display: flex;
     justify-content: center;
+}
+
+.col-3{
+    width: calc(100% / 3);
 }
 
 .logo-container img{
@@ -419,10 +429,6 @@ header{
 
 .col-33{
     width: calc(33% - 10px);
-}
-
-.col-3{
-    width: calc(100% / 3);
 }
 
 .col-4{
