@@ -239,6 +239,8 @@ header{
     width: calc(100% / 3);
 }
 
+/* BUSINESS SECTION IMAGE CUSTOMIZATION */
+
 .logo-container.bg-green{
     border: 20px solid #D1E9CD;
 }
@@ -248,12 +250,13 @@ header{
 }
 
 #uoff-logo-business{
-    height: 40px;
+    height: 30px;
     align-self: center;
 }
 
 
 /* END OF BUSINESS SECTION CUSTOMIZATION */
+
 
 
 /* FOOTER */
