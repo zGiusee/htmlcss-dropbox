@@ -195,6 +195,89 @@ li .fa-angle-down{
 
 
 
+/* BUSINESS SECTION CUSTOMIZATION */
+
+.logo-main-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.logo-container{
+    width: 50%;
+    height: 30vh;
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.col-3{
+    width: calc(100% / 3);
+}
+
+/* BUSINESS SECTION IMAGE CUSTOMIZATION */
+
+.logo-container.bg-green{
+    border: 20px solid #D1E9CD;
+}
+
+.white-svg-images{
+    filter: brightness(0) invert(1);
+}
+
+#uoff-logo-business{
+    height: 30px;
+    align-self: center;
+}
+
+
+/* END OF BUSINESS SECTION CUSTOMIZATION */
+
+
+
+/* FOOTER */
+
+.tendina-lingue{
+    color: #9B9DA1;
+    background-color: black;
+    border-color: transparent;
+    padding: 8px 16px;
+}
+
+/* FOOTER LIST */
+
+.footer-link-list{
+    list-style-type: none;
+}
+
+.footer-link-list li{
+    padding: 7px 0px;
+    font-size: 15px;
+}
+
+.footer-link-list li a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer-link-list li a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer-link-list li a:hover{
+    text-decoration-color: white;
+    text-decoration: underline;
+}
+
+.link-list-title{
+    font-size: 23px;
+}
+
+/* END OF FOOTER */
+
+
+
 /* BUTTONS */
 
 /* BLUE BUTTON */
@@ -292,89 +375,6 @@ li .fa-angle-down{
 
 
 
-/* BUSINESS SECTION CUSTOMIZATION */
-
-.logo-main-container{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-}
-
-.logo-container{
-    width: 50%;
-    height: 30vh;
-    padding: 80px;
-    display: flex;
-    justify-content: center;
-}
-
-.col-3{
-    width: calc(100% / 3);
-}
-
-/* BUSINESS SECTION IMAGE CUSTOMIZATION */
-
-.logo-container.bg-green{
-    border: 20px solid #D1E9CD;
-}
-
-.white-svg-images{
-    filter: brightness(0) invert(1);
-}
-
-#uoff-logo-business{
-    height: 30px;
-    align-self: center;
-}
-
-
-/* END OF BUSINESS SECTION CUSTOMIZATION */
-
-
-
-/* FOOTER */
-
-.tendina-lingue{
-    color: #9B9DA1;
-    background-color: black;
-    border-color: transparent;
-    padding: 8px 16px;
-}
-
-/* FOOTER LIST */
-
-.footer-link-list{
-    list-style-type: none;
-}
-
-.footer-link-list li{
-    padding: 7px 0px;
-    font-size: 15px;
-}
-
-.footer-link-list li a{
-    color: white;
-    text-decoration: none;
-}
-
-.footer-link-list li a{
-    color: white;
-    text-decoration: none;
-}
-
-.footer-link-list li a:hover{
-    text-decoration-color: white;
-    text-decoration: underline;
-}
-
-.link-list-title{
-    font-size: 23px;
-}
-
-/* END OF FOOTER */
-
-
-
 /* GENERAL TEXT SETTINGS AND CUSTOMIZATION */
 
 *{
@@ -433,7 +433,7 @@ li .fa-angle-down{
     font-size: 25px;
 }
 
-.option-list-title{
+.sm-title{
     font-size: 15px;
     padding: 40px 0px;
 }
