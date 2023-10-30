@@ -230,7 +230,7 @@ header{
 .logo-container{
     width: 50%;
     height: 30vh;
-    padding: 70px;
+    padding: 80px;
     display: flex;
     justify-content: center;
 }
@@ -238,6 +238,20 @@ header{
 .col-3{
     width: calc(100% / 3);
 }
+
+.logo-container.bg-green{
+    border: 20px solid #D1E9CD;
+}
+
+.white-svg-images{
+    filter: brightness(0) invert(1);
+}
+
+#uoff-logo-business{
+    height: 40px;
+    align-self: center;
+}
+
 
 /* END OF BUSINESS SECTION CUSTOMIZATION */
 
