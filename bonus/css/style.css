@@ -168,22 +168,39 @@ header{
 
 /* BUTTONS */
 
+/* BLUE BUTTON */
+
 .button-bg-blue{
     padding: 10px 12px;
     background-color: #0061FF;
-    border: none;
+    border: 1px solid #0061FF;
     color: white;
     border-collapse: collapse;
 }
 
 .button-bg-blue a{
     text-decoration: none;
-    color: white
+    color: white;
 }
 
-.card-button-width{
-    width: 100%;
+/* BLUE BUTTON HOVER */
+
+.button-bg-blue:hover{
+    background-color: white;
+    color: #0061FF;
+    border: solid 1px #0061FF;
 }
+
+.button-bg-blue a:hover{
+    text-decoration: none;
+    color: #0061FF;
+}
+
+/* END OF BLUE BUTTON */
+
+
+
+/* TRANSPARENT BUTTON */
 
 .button-bg-transparent{
     padding: 10px 12px;
@@ -196,6 +213,23 @@ header{
     color: black;
     text-decoration: none;
 }
+
+/* TRANSPARENT BUTTON HOVER */
+
+.button-bg-transparent:hover{
+    background-color: black;
+    color: white;
+    border: solid 1px black;
+}
+
+.button-bg-transparent a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+/* END OF TRANSPARENT BUTTON */
+
+/* WHITE BUTTON */
 
 .button-bg-white{
     padding: 10px 30px;
@@ -215,7 +249,17 @@ header{
     right: 20px;
 }
 
-/* END OF BTTONS */
+/* WHITE BUTTON HOVER*/
+
+.button-bg-white:hover{
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+}
+
+/* END OF WHITE BUTTON */
+
+/* END OF BUTTONS */
 
 
 
@@ -320,7 +364,18 @@ header{
     padding: 5px 10px;
     background-color: #0061FF;
     color: white;
+    border: 1px solid transparent;
 }
+
+/* TEXT BG BLUE HOVER SETTINGS */
+
+.text-bg-blue:hover{
+    background-color: white;
+    color: #0061FF;
+    border: 1px solid #0061FF;
+}
+
+/* END TEXT BG BLUE HOVER SETTINGS */
 
 .bold{
     font-weight: bold;
