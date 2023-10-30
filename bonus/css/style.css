@@ -277,12 +277,21 @@ header{
 .footer-link-list li{
     padding: 7px 0px;
     font-size: 15px;
-    
 }
 
 .footer-link-list li a{
     color: white;
-    text-decoration: none;   
+    text-decoration: none;
+}
+
+.footer-link-list li a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer-link-list li a:hover{
+    text-decoration-color: white;
+    text-decoration: underline;
 }
 
 .link-list-title{
@@ -346,6 +355,20 @@ header{
 }
 
 /* END OF GENERAL TEXT SETTINGS AND CUSTOMIZATION */
+
+
+
+/* HOOVER GENERAL SETTING */
+
+.show{
+    display: block;
+}
+
+.hiddem{
+    display: none;
+}
+
+/* END OF HOOVER GENERAL SETTING */
 
 
 
