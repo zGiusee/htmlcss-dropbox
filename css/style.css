@@ -462,6 +462,10 @@ header{
     padding-bottom: 100px;
 }
 
+.bottom-padding{
+    padding-bottom: 170px;
+}
+
 /* END OF PADDING UTILITIES */
 
 /* COLUMNS */
@@ -487,7 +491,7 @@ header{
 }
 
 .col-33{
-    width: calc(33% - 10px);
+    width: calc(33% - 20px);
 }
 
 .col-4{
