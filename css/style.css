@@ -167,11 +167,16 @@ header{
 /* BUTTONS */
 
 .button-bg-blue{
-    padding: 8px 12px;
+    padding: 9px 12px;
     background-color: #0061FF;
-    border-color: #0061FF;
+    border: none;
     color: white;
     border-collapse: collapse;
+}
+
+.button-bg-blue a{
+    text-decoration: none;
+    color: white
 }
 
 .card-button-width{
@@ -179,18 +184,27 @@ header{
 }
 
 .button-bg-transparent{
-    padding: 8px 12px;
+    padding: 9px 12px;
     background-color: transparent;
-    border-color: black;
+    border: 1px solid black;
     color: black;
 }
 
-.button-bg-white{
-    padding: 8px 30px;
-    background-color: white;
-    border-color: rgb(255, 255, 255);
+.button-bg-transparent a{
     color: black;
+    text-decoration: none;
+}
 
+.button-bg-white{
+    padding: 9px 30px;
+    background-color: white;
+    border: none;
+    color: black;
+}
+
+.button-bg-white a{
+    text-decoration: none;
+    color: black;
 }
 
 .card-button-xl-position{
