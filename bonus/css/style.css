@@ -83,6 +83,35 @@ header{
     top: 0px;
 }
 
+/* HEADER HOVER LIST */
+
+.function-content-list{
+    display: none;
+    position: absolute;
+    left: 0px;
+    list-style-type: none;
+    background-color: white;
+    border: solid 1px white;
+    padding-top: 27px;
+    width: 200px;
+}
+
+.function-content-list li{
+    padding: 20px 10px;
+}
+
+.function-content-list li:hover{
+    background-color: #B4D0E7;
+}
+
+li .fa-angle-down{
+    padding-right: 10px;
+}
+
+.function-content:hover .function-content-list{
+    display: block;
+}
+
 /* END OF HEADER */
 
 
