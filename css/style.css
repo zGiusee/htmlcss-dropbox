@@ -76,6 +76,11 @@ header{
     width: 100%;
 }
 
+#jumbotron{
+    position: absolute;
+    top: 0px;
+}
+
 /* END OF HEADER */
 
 
@@ -314,7 +319,8 @@ header{
 /* ENTITIES AND ICONS */
 
 .fa-arrow-down{
-    padding-top: 100px;
+    padding-top: 70px;
+    margin-bottom: 30px;
 }
 
 .fa-chevron-down{
@@ -350,6 +356,10 @@ header{
 
 .row-padding{
     padding: 50px 0px 0px 0px;
+}
+
+.row-padding-l{
+    padding: 150px 0px 0px 0px;
 }
 
 .row-padding-xl{
