@@ -52,10 +52,12 @@ header{
     position: fixed;
     width: 100%;
     background-color: white;
+    z-index: 1;
 }
 
 .header-list-container{
     display: flex;
+    padding: 5px 0px;
 }
 
 .header-list{
@@ -72,7 +74,7 @@ header{
     color: black;
 }
 
-.logo{
+#logo{
     width: 100%;
 }
 
@@ -167,7 +169,7 @@ header{
 /* BUTTONS */
 
 .button-bg-blue{
-    padding: 9px 12px;
+    padding: 10px 12px;
     background-color: #0061FF;
     border: none;
     color: white;
@@ -184,7 +186,7 @@ header{
 }
 
 .button-bg-transparent{
-    padding: 9px 12px;
+    padding: 10px 12px;
     background-color: transparent;
     border: 1px solid black;
     color: black;
@@ -196,7 +198,7 @@ header{
 }
 
 .button-bg-white{
-    padding: 9px 30px;
+    padding: 10px 30px;
     background-color: white;
     border: none;
     color: black;
@@ -460,8 +462,8 @@ header{
     padding-left: 25px;
 }
 
-.padding-left-30{
-    padding-left: 30px;
+.padding-left-50{
+    padding-left: 50px;
 }
 
 .padding-y-10{
@@ -505,7 +507,7 @@ header{
 }
 
 .col-33{
-    width: calc(33% - 20px);
+    width: calc(33% - 30px);
 }
 
 .col-4{
