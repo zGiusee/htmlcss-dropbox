@@ -101,7 +101,7 @@ header{
 }
 
 .function-content-list li:hover{
-    background-color: #B4D0E7;
+    background-color: rgba(224, 224, 224, 0.8);
 }
 
 li .fa-angle-down{
@@ -234,6 +234,35 @@ li .fa-angle-down{
 /* END OF BUSINESS SECTION CUSTOMIZATION */
 
 
+/* QnA SECTION */
+
+.qna-box:hover .answer-1{
+    display: block;
+}
+
+.qna-box:hover{
+    background-color: rgba(243, 243, 243, 0.5);
+}
+
+.answer-1{
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 80px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    z-index: 1;
+
+}
+
+.answer-text{
+    padding: 40px 50px 40px 25px;
+    line-height: 1.8;
+    font-weight: 200;
+    border-bottom: 1px solid black;
+    
+}
+
 
 /* FOOTER */
 
@@ -329,8 +358,8 @@ li .fa-angle-down{
 /* TRANSPARENT BUTTON HOVER */
 
 .button-bg-transparent:hover{
-    background-color: black;
-    color: white;
+    background-color: rgba(224, 224, 224, 0.8);
+    color: black;
     border: solid 1px black;
 }
 
@@ -464,7 +493,7 @@ li .fa-angle-down{
 }
 
 .fa-chevron-down{
-    padding-left: 200px;
+    margin-left: 250px;
 }
 
 .fa-earth-americas{
