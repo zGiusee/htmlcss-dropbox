@@ -1,0 +1,627 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GENERAL CONTAINERS */
+
+.container-fluid{
+    width: 100%;
+}
+
+.container{
+    width: 100%;
+}
+
+.img-container{
+    width: 100%;
+}
+
+.sm-img-container img{
+    width: 50%;
+    padding: 40px 0px 40px 30px;
+}
+
+.central-container{
+    padding: 30px 30px 30px 30px;
+
+}
+
+/* END GENERAL CONTAINERS */
+
+
+
+/* IMAGE CONTAINERS */
+
+.logo-container img{
+    width: 100%;
+}
+
+.img-container img{
+    width: 100%;
+}
+
+/* END OF IMAGE CONTAINERS */
+
+
+
+/* HEADER */
+
+header{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 1;
+}
+
+.header-list-container{
+    display: flex;
+    padding: 5px 0px;
+}
+
+.header-list{
+    list-style-type: none;
+    display: flex;
+}
+
+.header-list li{
+    padding: 15px 10px;
+}
+
+.header-list li a{
+    text-decoration: none;
+    color: black;
+}
+
+#logo{
+    width: 100%;
+}
+
+#jumbotron{
+    position: absolute;
+    top: 0px;
+}
+
+/* END OF HEADER */
+
+
+
+/* MAIN */
+
+/* RADIO */
+
+.radio-box{
+    padding: 0px 40px 0px 5px;
+}
+
+/* SUBSCRIPTION-LIST */
+
+.sub-plan-list{
+    list-style-type: none;
+    padding-bottom: 15px;
+}
+
+.sub-plan-list li{
+    padding: 10px 0px; 
+    font-size: 14px;
+    display: flex;
+}
+
+.sub-plan-advantage-list{
+    list-style-type: none;
+    padding-bottom: 15px;
+}
+
+.sub-plan-advantage-list li{
+    padding: 10px 0px; 
+    font-size: 13px;
+    display: flex;
+}
+
+/* SUBSCRIPTION PLAN CARD */
+
+.card-border{
+    border: 1px solid #D2D2D5;
+}
+
+.upper-col{
+    border-bottom: 0.5px solid #D2D2D5;
+}
+
+.bottom-card-header{
+    padding: 20px 0px 20px 20px;
+}
+
+.bottom-card-body{
+    padding: 20px 30px 0px 20px;
+}
+
+.month-text{
+    opacity: 0.5;
+    font-size: 13px;
+}
+
+.sub-card-price{
+    padding: 10px 0px;
+    font-size: 13px;
+}
+
+.sub-card-text{
+    font-weight: 200;
+    font-size: 14px;
+    padding: 10px 0px;
+}
+
+.card-hr{
+    width: 15%;
+    color: #D2D2D5;
+}
+
+.card-p-xl{
+    padding: 40px 200px 25px 0px;
+}
+
+/* END OF SUBSCRIPTION-LIST */
+
+
+
+/* BUTTONS */
+
+.button-bg-blue{
+    padding: 10px 12px;
+    background-color: #0061FF;
+    border: none;
+    color: white;
+    border-collapse: collapse;
+}
+
+.button-bg-blue a{
+    text-decoration: none;
+    color: white
+}
+
+.card-button-width{
+    width: 100%;
+}
+
+.button-bg-transparent{
+    padding: 10px 12px;
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+}
+
+.button-bg-transparent a{
+    color: black;
+    text-decoration: none;
+}
+
+.button-bg-white{
+    padding: 10px 30px;
+    background-color: white;
+    border: none;
+    color: black;
+}
+
+.button-bg-white a{
+    text-decoration: none;
+    color: black;
+}
+
+.card-button-xl-position{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+/* END OF BTTONS */
+
+
+
+/* BUSINESS SECTION CUSTOMIZATION */
+
+.logo-main-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.logo-container{
+    width: 50%;
+    height: 30vh;
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.col-3{
+    width: calc(100% / 3);
+}
+
+/* BUSINESS SECTION IMAGE CUSTOMIZATION */
+
+.logo-container.bg-green{
+    border: 20px solid #D1E9CD;
+}
+
+.white-svg-images{
+    filter: brightness(0) invert(1);
+}
+
+#uoff-logo-business{
+    height: 30px;
+    align-self: center;
+}
+
+
+/* END OF BUSINESS SECTION CUSTOMIZATION */
+
+
+
+/* FOOTER */
+
+.tendina-lingue{
+    color: #9B9DA1;
+    background-color: black;
+    border-color: transparent;
+    padding: 8px 16px;
+}
+
+/* FOOTER LIST */
+
+.footer-link-list{
+    list-style-type: none;
+}
+
+.footer-link-list li{
+    padding: 7px 0px;
+    font-size: 15px;
+    
+}
+
+.footer-link-list li a{
+    color: white;
+    text-decoration: none;   
+}
+
+.link-list-title{
+    font-size: 23px;
+}
+
+/* END OF FOOTER */
+
+
+
+/* GENERAL TEXT SETTINGS AND CUSTOMIZATION */
+
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text-end{
+    text-align: end;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-bg-blue{
+    padding: 5px 10px;
+    background-color: #0061FF;
+    color: white;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.sm-font-size{
+    font-size: 14px;
+}
+
+/* TITLE FONTS */
+
+.big-title-font{
+    padding: 50px 0px;
+    font-size: 80px;
+    font-weight: bolder;
+}
+
+.title-font{
+    padding: 100px 0px;
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.medium-title-font{
+    padding: 25px 25px 20px 0px;
+    font-size: 25px;
+}
+
+.option-list-title{
+    font-size: 15px;
+    padding: 40px 0px;
+}
+
+/* END OF GENERAL TEXT SETTINGS AND CUSTOMIZATION */
+
+
+
+/* ENTITIES AND ICONS */
+
+.fa-arrow-down{
+    padding-top: 70px;
+    margin-bottom: 30px;
+}
+
+.fa-chevron-down{
+    padding-left: 200px;
+}
+
+.fa-earth-americas{
+    color: #9B9DA1;
+    padding-right: 20px;
+}
+
+/* SUBSCRIPTION LIST ICONS */
+
+.fa-user, .fa-folder, .fa-share-nodes, .fa-check, .fa-users, .fa-building{
+    margin-right: 10px;
+    margin-top: 3px;
+}
+
+.fa-check{
+    color: #0061FF;
+}
+
+/* END OF ENTITIES AND ICONS */
+
+
+
+/* ROW AND FLEXBOX */
+
+.row{
+    display: flex;
+    margin: 0 auto;
+}
+
+.row-padding{
+    padding: 50px 0px 0px 0px;
+}
+
+.row-padding-l{
+    padding: 150px 0px 0px 0px;
+}
+
+.row-padding-xl{
+    padding: 200px 0px 0px 0px;
+}
+
+.row-gap-50{
+    row-gap: 50px;
+}
+
+.column-gap{
+    column-gap: 42px;
+}
+
+/* ROW AND FLEXBOX UTILITIES*/
+
+.f-wrap{
+    flex-wrap: wrap;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.justify-end{
+    justify-content: flex-end;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.space-around{
+    justify-content: space-around;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.p-relative{
+    position: relative;
+}
+
+/* END OF ROW AND FLEXBOX UTILITIES*/
+
+
+
+/* POSITION/GENERAL UTILITIES */
+
+/* MARGIN */
+
+.margin-bot-30{
+    margin-bottom: 30px;
+}
+
+.margin-top{
+    margin-top: 50px;
+}
+
+/* PADDING */
+
+.padding-y-30{
+    padding: 30px 0px 30px 0px;
+}
+
+.padding-y-20{
+    padding: 20px 0px;
+}
+
+.padding-top-40{
+    padding-top: 40px;
+}
+
+.padding-top-xl{
+    padding-top: 150px;
+}
+
+.padding-left-25{
+    padding-left: 25px;
+}
+
+.padding-left-50{
+    padding-left: 50px;
+}
+
+.padding-y-10{
+    padding: 10px 0px;
+}
+
+.padding-x-10{
+    padding-right: 10px;
+}
+
+.bottom-padding{
+    padding-bottom: 100px;
+}
+
+.bottom-padding-xl{
+    padding-bottom: 170px;
+}
+
+/* END OF PADDING UTILITIES */
+
+/* COLUMNS */
+
+.col-100{
+    width: calc(100%);
+}
+
+.col-70{
+    width: calc(70%);
+}
+
+.col-60{
+    width: calc(60%);
+}
+
+.col-50{
+    width: calc(50%);
+}
+
+.col-40{
+    width: calc(40%);
+}
+
+.col-33{
+    width: calc(33% - 30px);
+}
+
+.col-4{
+    width: calc(100% / 3);
+}
+
+.col-30{
+    width: calc(30%);
+}
+
+.col-20{
+    width: calc(20%, -20px);
+}
+
+/* END OF COLUMNS */
+
+
+
+/* WIDTH SETTINGS */
+
+.w-100{
+    width: 100%;
+}
+
+.w-70{
+    width: 70%;
+}
+
+.w-50{
+    width: 50%;
+}
+
+/* END WIDTH SETTINGS*/
+
+
+
+/* BG-COLORS */
+
+.bg-black{
+    background-color: black;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.bg-skyblue{
+    background: #B4D0E7;
+}
+
+.bg-dark-purple{
+    background-color: #610529;
+}
+
+.bg-green{
+    background-color: #A2D39B;
+}
+
+.bg-light-green{
+    background-color: #D1E9CD;
+}
+
+.bg-yellow{
+    background-color: #FFD830;
+}
+
+.bg-blue{
+    background-color: #0D2481;
+}
+
+.bg-light-blue{
+    background-color: #0093CE;
+}
+
+.bg-red{
+    background-color: #D5001F;
+}
+
+.bg-light-red{
+    background-color: #FF1C1C;
+}
+
+.bg-light-gray{
+    background-color: #F5F5F5;
+}
+
+/* END OF BG-COLORS */
+
+
+/* COLORS */
+
+.dark-purple{
+    color: #610529;
+}
+
+.white{
+    color: white;
+}
+
+/* END COLORS */
